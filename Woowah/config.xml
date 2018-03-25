@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>GOS</name>
+
+  <description>
+      Good 'ol Sounds
+  </description>
+
+  <author href="https://build.phonegap.com" email="johnjonesma@gmail.com">
+      JoeTheHobo
+  </author>
+
+	    <icon src="www/img/xxxhdpi.png"/>
+
+  
+</widget>

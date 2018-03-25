@@ -1,0 +1,77 @@
+<head>
+	<script src="js/index.js"></script>
+	
+	<style>
+		body {
+			background-color: blue;
+		}
+	
+		button {
+			border: none;
+			height: 60;
+			width: 60;
+			
+			background-color: black;
+			color: purple;
+		}
+	</style>
+</head>
+<center>
+<body>
+<audio id="oofs">
+ <source src="sounds/oof.mp3" type="audio/ogg">
+ <source src="sounds/oof.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="wows">
+	<source src="sounds/wow.wav" type="audio/ogg">
+    <source src="sounds/wow.wav" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+<audio id="omgah">
+ <source src="sounds/omgah.wav" type="audio/ogg">
+ <source src="sounds/omgah.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="spaghet">
+	<source src="sounds/spahgte.wav" type="audio/ogg">
+    <source src="sounds/spahget.wav" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+
+	<table>
+		<tr>
+			<td>
+				<button onclick="wow()">Wow</button>
+			</td>
+			<td>
+				<button onclick="spaghet()">Spaghet</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onclick="oof()">Oof</button>
+			</td>
+			<td>
+				<button onclick="omgah()">Oh My GAH</button>
+			</td>
+		</tr>
+
+	</table>
+
+	<script>
+		function oof() {
+			sfGid("oofs").play();
+		}
+		function wow() {
+			sfGid("wows").play();
+		}
+		function omgah() {
+			sfGid("omgah").play();
+		}
+		function spaghet() {
+			sfGid("spaghet").play();
+		}
+	</script>
+</body>
+</center>
